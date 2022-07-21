@@ -1,0 +1,15 @@
+70c32c22201d61558bdc60b6e7958c93 *DESCRIPTION
+461732341ea7299be7d2a3134a0ed08f *LICENSE
+659a4b81bc6ea9cb3404123b57142e7a *NAMESPACE
+edc4faaf484dad5ff999647ea37d3801 *NEWS.md
+32a874d66931b84a23c6287c33c909ec *R/cancers_drug_groups.R
+1ec53761d7c71eeef59c090c54e9f85e *R/cancers_genes_drugs.R
+3c285188801adbe5a3c7e9cead7fdc12 *R/enrichment.R
+2a1aa8609b2d5ed94a64ad1d87d1f87f *R/intersectSankey.R
+9da02e82b79ea9472047be8649a83a78 *data/cancers_drug_groups.RData
+48a39b18531eeb4faedbfb2248b3a916 *data/cancers_genes_drugs.RData
+1d9422957114c8d12a1e91602322de4a *data/datalist
+6d7b2d6ae38eb67c6a70eb8abe5f5608 *man/cancers_drug_groups.Rd
+48738fb5af28f24ac10513202758ee1b *man/cancers_genes_drugs.Rd
+cb38b79d1e81742306a8ebe6ede3e6d6 *man/enrichment.Rd
+dc6c6ed27f9c2e253a0453aa856f13d7 *man/intersectSankey.Rd
