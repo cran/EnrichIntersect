@@ -51,9 +51,11 @@ data(cancers_drug_groups, package = "EnrichIntersect")
 
 x <- cancers_drug_groups$score
 custom.set <- cancers_drug_groups$custom.set
+set.seed(123)
 enrich <- enrichment(x, custom.set, permute.n=5)
+
 
 }
 \references{
-Reimand, J., Isserlin, R., Voisin, V., et al (2019). \emph{Pathway enrichment analysis and visualization of omics data using g:profiler, gsea, cytoscape and enrichmentmap}. Nature protocols, 14:482–517.
+Reimand J, Isserlin R, Voisin V, et al (2019). \emph{Pathway enrichment analysis and visualization of omics data using g:profiler, gsea, cytoscape and enrichmentmap}. Nature protocols, 14:482–517.
 }
