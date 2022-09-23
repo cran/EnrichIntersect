@@ -33,6 +33,9 @@
 #' @export
 intersectSankey <- function(x, out.fig=NULL, color=NULL, step.names=c("Levels","Variables","Tasks"), fontSize=c(20,13,20),...){
   
+  # remove intermediate variables without associations with any tasks or levels
+  x <- x[apply(x!=0, 1, sum)!=0,,]
+  
   # intermediate variables
   inter_var <- dimnames(x)[[1]]
   # multiple sample groups
@@ -62,7 +65,8 @@ intersectSankey <- function(x, out.fig=NULL, color=NULL, step.names=c("Levels","
   }
   group_tmp <- NULL
   for(i in 1:dim(x0)[2]){
-    group_tmp <- c( group_tmp, unlist(apply(x0[rowSums(x0[,i,])>0,i,], 1, function(xx){multitask[xx==1]})) )
+    tmp <- matrix(x0[rowSums(x0[,i,])>0,i,], ncol=dim(x0)[3])
+    group_tmp <- c( group_tmp, unlist(apply(tmp, 1, function(xx){multitask[xx==1]})) )
   }
   links$group[1:length(group_tmp)] <- group_tmp
   links$group <- as.factor(links$group)
