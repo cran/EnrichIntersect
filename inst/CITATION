@@ -1,4 +1,30 @@
-bibentry(bibtype = "Article",
+citHeader("To cite EnrichIntersect in publications use:")
+
+citEntry(entry = "Article",
+  title        = "EnrichIntersect: an R package for custom set enrichment analysis and interactive visualization of intersecting sets",
+  author       = c(person(given = "Zhi",
+                          family = "Zhao",
+                          email = "zhi.zhao@medisin.uio.no"),
+                   person(given = "Manuela",
+                          family = "Zucknick",
+                          email = "manuela.zucknick@medisin.uio.no"),
+                   person(given = "Tero",
+                          family = "Aittokallio",
+                          email = "t.a.aittokallio@medisin.uio.no")),
+  journal      = "Bioinformatics Advances",
+  year         = "2022",
+  volume       = "2",
+  number       = "1",
+  pages        = "vbac073",
+  doi          = "10.1093/bioadv/vbac073",
+  textVersion  =
+  paste("Zhi Zhao, Manuela Zucknick, Tero Aittokallio (2022).",
+        "EnrichIntersect: an R package for custom set enrichment analysis and interactive visualization of intersecting sets.",
+        "Bioinformatics Advances, 2(1), vbac073.",
+        "doi: 10.1093/bioadv/vbac073.")
+)
+
+citEntry(entry = "Article",
   title        = "Tissue-specific identification of multi-omics features for pan-cancer drug response prediction",
   author       = c(person(given = "Zhi",
                           family = "Zhao",
@@ -18,6 +44,10 @@ bibentry(bibtype = "Article",
   number       = "8",
   pages        = "104767",
   doi          = "10.1016/j.isci.2022.104767",
-  header       = "To cite EnrichIntersect in publications use:"
+  textVersion  =
+  paste("Zhi Zhao and Shixiong Wang and Manuela Zucknick and Tero Aittokallio (2022).",
+        "Tissue-specific identification of multi-omics features for pan-cancer drug response prediction.",
+        "iScience, 25(8), 104767.",
+        "doi: 10.1016/j.isci.2022.104767."),
+  header       = "If mix-lasso is used, please also cite:"
 )
-

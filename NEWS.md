@@ -1,18 +1,20 @@
+# EnrichIntersect 0.5
+
+- Updated reference and cleaned R code
+
 # EnrichIntersect 0.4
 
-* For a intersecting Sankey diagram, removed intermediate variables without associations with any tasks or levels automatically
+- For a intersecting Sankey diagram, automatically removed intermediate variables without associations with any tasks or levels automatically
 
 # EnrichIntersect 0.3
 
-* Adjusted significance level for enrichment analysis automatically
-* Updated vignettes
-
+- Adjusted significance level for enrichment analysis automatically
+- Updated vignettes
 
 # EnrichIntersect 0.2
 
-* Added vignettes
-
+- Added vignettes
 
 # EnrichIntersect 0.1
 
-* First release
+- First release

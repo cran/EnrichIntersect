@@ -12,5 +12,5 @@ enrich <- enrichment(x, custom.set, permute.n = 100)
 
 ## ----sankey_diagram, fig.width=9, fig.height=7--------------------------------
 data(cancers_genes_drugs, package = "EnrichIntersect")
-intersectSankey(cancers_genes_drugs, step.names = c("Cancers","Genes","Drugs"))
+intersectSankey(cancers_genes_drugs, step.names = c("Cancers", "Genes", "Drugs"))
 

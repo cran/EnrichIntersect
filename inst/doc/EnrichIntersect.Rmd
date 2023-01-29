@@ -44,14 +44,18 @@ An example input data object `cancers_genes_drugs` in the package is an `array` 
 
 ```{r sankey_diagram, fig.width=9, fig.height=7}
 data(cancers_genes_drugs, package = "EnrichIntersect")
-intersectSankey(cancers_genes_drugs, step.names = c("Cancers","Genes","Drugs"))
+intersectSankey(cancers_genes_drugs, step.names = c("Cancers", "Genes", "Drugs"))
 ```
 
 
 ## Citation
 
+> Zhi Zhao, Manuela Zucknick, Tero Aittokallio (2022).
+> EnrichIntersect: an R package for custom set enrichment analysis and interactive visualization of intersecting sets. 
+> _Bioinformatics Advances_, 2(1), vbac073. DOI: [10.1093/bioadv/vbac073](https://doi.org/10.1093/bioadv/vbac073).
+
 > Zhi Zhao, Shixiong Wang, Manuela Zucknick, Tero Aittokallio (2022).
 > Tissue-specific identification of multi-omics features for pan-cancer drug response prediction.
-> iScience, 25(8): 104767. DOI: [https://doi.org/10.1016/j.isci.2022.104767](https://doi.org/10.1016/j.isci.2022.104767).
+> _iScience_, 25(8): 104767. DOI: [10.1016/j.isci.2022.104767](https://doi.org/10.1016/j.isci.2022.104767).
 
 
