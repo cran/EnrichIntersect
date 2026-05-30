@@ -9,7 +9,7 @@ data(cancers_drug_groups, package = "EnrichIntersect")
 x <- cancers_drug_groups$score
 custom.set <- cancers_drug_groups$custom.set
 set.seed(123)
-enrich <- enrichment(x, custom.set, permute.n = 100)
+enrich <- enrichment(x, custom.set, permute.n = 1000)
 
 ## ----sankey_diagram, fig.width=9, fig.height=7--------------------------------
 data(cancers_genes_drugs, package = "EnrichIntersect")
